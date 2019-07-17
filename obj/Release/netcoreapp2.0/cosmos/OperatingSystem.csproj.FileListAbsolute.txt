@@ -1,0 +1,9 @@
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\bin\Release\netcoreapp2.0\cosmos\OperatingSystem.deps.json
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\bin\Release\netcoreapp2.0\cosmos\OperatingSystem.dll
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\bin\Release\netcoreapp2.0\cosmos\OperatingSystem.pdb
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Release\netcoreapp2.0\cosmos\OperatingSystem.csprojAssemblyReference.cache
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Release\netcoreapp2.0\cosmos\OperatingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Release\netcoreapp2.0\cosmos\OperatingSystem.AssemblyInfoInputs.cache
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Release\netcoreapp2.0\cosmos\OperatingSystem.AssemblyInfo.cs
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Release\netcoreapp2.0\cosmos\OperatingSystem.dll
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Release\netcoreapp2.0\cosmos\OperatingSystem.pdb
