@@ -1,0 +1,9 @@
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\bin\Debug\netcoreapp2.0\cosmos\DragonOS.deps.json
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\bin\Debug\netcoreapp2.0\cosmos\DragonOS.dll
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\bin\Debug\netcoreapp2.0\cosmos\DragonOS.pdb
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Debug\netcoreapp2.0\cosmos\DragonOS.csprojAssemblyReference.cache
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Debug\netcoreapp2.0\cosmos\DragonOS.csproj.CoreCompileInputs.cache
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Debug\netcoreapp2.0\cosmos\DragonOS.AssemblyInfoInputs.cache
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Debug\netcoreapp2.0\cosmos\DragonOS.AssemblyInfo.cs
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Debug\netcoreapp2.0\cosmos\DragonOS.dll
+C:\Users\Jeremy Pace\source\repos\UnnamedOperatingSystem\OperatingSystem\obj\Debug\netcoreapp2.0\cosmos\DragonOS.pdb

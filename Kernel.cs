@@ -18,7 +18,7 @@ namespace OS
     public class Kernel : Sys.Kernel
     {
         // -------------------- OS VARIABLES --------------------
-        String OS_NAME = "OS"; // the name of the operating system.
+        String OS_NAME = "DragonOS"; // the name of the operating system.
         String VERSION = "0.00.00"; // the version of the operating system.
 
         // -------------------- DRIVERS --------------------
@@ -56,6 +56,9 @@ namespace OS
                 Console.ForegroundColor = ConsoleColor.White;
             }
 
+            Console.WriteLine("loading gui...");
+
+            // load the gui..
         }
 
         protected override void Run()

@@ -1699,9 +1699,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jeremy Pace\\source\\repos\\UnnamedOperatingSystem\\OperatingSystem\\OperatingSystem.csproj",
-      "projectName": "OperatingSystem",
-      "projectPath": "C:\\Users\\Jeremy Pace\\source\\repos\\UnnamedOperatingSystem\\OperatingSystem\\OperatingSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Jeremy Pace\\source\\repos\\UnnamedOperatingSystem\\OperatingSystem\\DragonOS.csproj",
+      "projectName": "DragonOS",
+      "projectPath": "C:\\Users\\Jeremy Pace\\source\\repos\\UnnamedOperatingSystem\\OperatingSystem\\DragonOS.csproj",
       "packagesPath": "C:\\Users\\Jeremy Pace\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jeremy Pace\\source\\repos\\UnnamedOperatingSystem\\OperatingSystem\\obj\\",
       "projectStyle": "PackageReference",
