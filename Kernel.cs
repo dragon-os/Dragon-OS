@@ -7,6 +7,7 @@ using Cosmos.Core.IOGroup;
 using Cosmos.Common;
 using Sys = Cosmos.System;
 using Cosmos.System.FileSystem;
+using gui;
 
 namespace OS
 {
@@ -58,7 +59,8 @@ namespace OS
 
             Console.WriteLine("loading gui...");
 
-            // load the gui..
+            // load the gui...
+            Gui.init();
         }
 
         protected override void Run()
