@@ -1,13 +1,16 @@
 ﻿using System;
 
-using drivers.display;
-using drivers.file;
+using drivers;
+using util;
 
-using Cosmos.Core.IOGroup;
 using Cosmos.Common;
 using Sys = Cosmos.System;
 using Cosmos.System.FileSystem;
-using gui;
+using Cosmos.System.Graphics;
+using System.Drawing;
+using Cosmos;
+
+using System.IO;
 
 namespace OS
 {
@@ -22,49 +25,39 @@ namespace OS
         String OS_NAME = "DragonOS"; // the name of the operating system.
         String VERSION = "0.00.00"; // the version of the operating system.
 
+        bool hasBootBefore;
+
         // -------------------- DRIVERS --------------------
-        private static DisplayDriver displayDriver; // the display driver.
-        private static Mouse mouse; // the mouse driver.
-        private static FAT fat; // the file system driver.
+        public static Canvas fsc; // the display drivers
 
         protected override void BeforeRun()
         {
+            Console.Clear();
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(OS_NAME + " bootloader/kernel v" + VERSION + " has loaded. ");
+            Console.WriteLine(OS_NAME + " kernel v" + VERSION + " has loaded. ");
 
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine(OS_NAME + " loading FAT drivers...");
-
-            Console.ForegroundColor = ConsoleColor.White;
-            fat = new FAT();
-
-            CosmosVFS fs = null;
-            
-            // check the amount of FAT filesystems.
-            if(fs.GetVolumes().Count == 0)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("No FAT file system found!");
-                Console.ForegroundColor = ConsoleColor.White;
-            } else
-            {
-                fs = new Sys.FileSystem.CosmosVFS();
-                Sys.FileSystem.VFS.VFSManager.RegisterVFS(fs);
-
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("FAT file system found!");
-                Console.ForegroundColor = ConsoleColor.White;
-            }
-
-            Console.WriteLine("loading gui...");
-
-            // load the gui...
-            Gui.init();
         }
 
         protected override void Run()
         {
+            fsc = FullScreenCanvas.GetFullScreenCanvas(new Mode(1920, 1080, ColorDepth.ColorDepth32));
+
+            Console.WriteLine("loading DisplayDriver");
+
+            //String hasBootBeforeFile;
+
+            //if(!File.Exists("hasBootBefore.dconfig"))
+            //{
+            //    File.Create("hasBootBefore.dconfig"); // the file
+            //    File.WriteAllText("hasBootBefore.dconfig", "true");
+            //    
+            //} else
+            //{
+            //    hasBootBeforeFile = File.ReadAllText("hasBootBefore.dconfig");
+            //}
+
+            Setup.setup();
         }
     }
 }
